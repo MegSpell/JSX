@@ -1,0 +1,10 @@
+.person {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin: 12px 0;
+  max-width: 520px;
+}
+
+.person__facts { margin: 8px 0; padding-left: 18px; }
+.person__hobbies { margin: 4px 0; padding-left: 18px; }

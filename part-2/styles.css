@@ -1,0 +1,41 @@
+/* Basic page polish */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  padding: 16px;
+}
+
+/* Tweet card */
+.tweet {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 12px 14px;
+  margin: 12px 0;
+  max-width: 520px;
+}
+
+/* Header row */
+.tweet__header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.tweet__name {
+  font-weight: 700;
+}
+
+.tweet__username,
+.tweet__date {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.tweet__dot {
+  color: #aaa;
+}
+
+.tweet__message {
+  line-height: 1.5;
+  margin: 0;
+}
